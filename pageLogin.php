@@ -32,7 +32,7 @@
                 <!--input Password-->
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="text" id="inputPassword" required>
+                    <input type="password" id="inputPassword" required>
                     <label>Password</label>
                 </div>
 
@@ -49,6 +49,6 @@
         </div>
     </div>
 
-    
+
 </body>
 </html>

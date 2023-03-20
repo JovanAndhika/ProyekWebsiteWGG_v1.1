@@ -20,7 +20,7 @@ $hasilValidasi = validasiLogin($_POST["inputNRP"], $_POST["inputPassword"]);
 
 if($hasilValidasi == true){
     header("Location: ./pagePresensi.php");
-}else{
+}else if($hasilValidasi == false){
     header('Location: ./pageLogin.php');
 }
 
