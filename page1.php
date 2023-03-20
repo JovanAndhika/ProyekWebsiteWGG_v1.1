@@ -28,8 +28,8 @@
     <h2 class="logo">WGG</h2>
     <div class="buatNgeblur">
       <nav class="navbar">
-        <a href="pageLogin.html">Login</a>
-        <a href="pagePresensi.html">Presensi</a>
+        <a href="pageLogin.php">Login</a>
+        <a href="pagePresensi.php">Presensi</a>
         <a href="#">Info</a>
         <a href="#">Contact</a>
       </nav>
@@ -110,7 +110,7 @@
 
 
   
-  <a class="Link_kePage_Selanjutnya" href="./pageLogin.html" target=_self>
+  <a class="Link_kePage_Selanjutnya" href="./pageLogin.php" target=_self>
     <button id="mainLoginID">Login</button> 
   </a>
   <style>
@@ -155,7 +155,7 @@
     }
   </style>
 
-  <a class="Link_kePage_Selanjutnya" href="./pagePresensi.html" target=_self>
+  <a class="Link_kePage_Selanjutnya" href="./pagePresensi.php" target=_self>
     <button id="PresensiID">Presensi</button>
   </a>
   <style>

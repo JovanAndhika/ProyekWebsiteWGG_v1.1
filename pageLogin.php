@@ -16,39 +16,39 @@
 
 
 <body>
+
     <div class="wrapper">
         <div class="form-box Login">
             <h2>Login</h2>
 
-            <form action="#">
+            <form action="../trainingIT/validasiLogin.php" method="post">
                 <!--Input email-->
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="text" required>
+                    <input type="text" id="inputNRP" required>
                     <label>NRP</label>
                 </div>
 
                 <!--input Password-->
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="text" required>
+                    <input type="text" id="inputPassword" required>
                     <label>Password</label>
                 </div>
+
 
                 <div class="remember-forgot">
                     <label><input type="checkbox">
                     I'am not a robot</label>
                     <a href="#">Forgot Password?</a>
                 </div>
-
-                <button type="submit" class="btn">Login</button>
+                
+                <button class="btn">Login</button>
             </form>
 
         </div>
     </div>
 
-
     
-
 </body>
 </html>
