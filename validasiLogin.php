@@ -2,16 +2,16 @@
 
 function validasiLogin ($NRP, $password){
     $mahasiswa = ["C14200001" => "12345678", "C14210002" => "12345678", "C14210003" => "12345678"];
-
+   
     foreach($mahasiswa as $key => $value){
 
         if($NRP === $key){
             if($password === $value){
                 return true;
                 break 1;
-            }
-              
+            }     
         }
+
     }
 }
 

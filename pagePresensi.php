@@ -10,11 +10,16 @@
 
 
 <body>
+    <?php
+        $mahasiswa = ["C14200001" => "12345678", "C14210002" => "12345678", "C14210003" => "12345678"];
+    ?>
+
+
     <p class="tulisan" id="WGG">Selamat Datang di WGG<br></p>
             <table class="table-content">
                 <thead>
                     <tr>
-                        <th>No.</th>
+                        <th></th>
                         <th>Hari/Tanggal</th>
                         <th>Agenda</th>
                         <th>Keterangan</th>
@@ -22,14 +27,20 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1</th>
+                        <?php foreach($mahasiswa as $key => $value){?>
+                            <th></th>
+                            <td> <?php $mahasiswa ?></td>
+                                
+                            
+                            <?php } ?>
+                        <th></th>
                         <td>Senin, 26 Juli 2023</td>
                         <td>Ngopi</td>
                         <td>Hadir</td>
                     </tr>
 
                     <tr>
-                        <th>2</th>
+                        <th></th>
                         <td>Selasa, 27 Juli 2023</td>
                         <td>Tidur</td>
                         <td>Hadir</td>

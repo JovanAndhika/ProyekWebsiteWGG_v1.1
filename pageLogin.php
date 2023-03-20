@@ -21,18 +21,18 @@
         <div class="form-box Login">
             <h2>Login</h2>
 
-            <form action="../trainingIT/validasiLogin.php" method="post">
+            <form action="validasiLogin.php" method="post">
                 <!--Input email-->
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="text" id="inputNRP" required>
+                    <input type="text" name="inputNRP" id="inputNRP" required>
                     <label>NRP</label>
                 </div>
 
                 <!--input Password-->
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="password" id="inputPassword" required>
+                    <input type="password" name="inputPassword" id="inputPassword" required>
                     <label>Password</label>
                 </div>
 
@@ -42,8 +42,7 @@
                     I'am not a robot</label>
                     <a href="#">Forgot Password?</a>
                 </div>
-                
-                <button class="btn">Login</button>
+                <button type="submit" class="btn">Login</button>
             </form>
 
         </div>
