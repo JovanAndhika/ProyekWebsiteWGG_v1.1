@@ -10,6 +10,7 @@
 
 
 <body>
+
     <?php
         $mahasiswa = ["C14200001" => "12345678", "C14210002" => "12345678", "C14210003" => "12345678"];
     ?>
@@ -21,35 +22,23 @@
                     <tr>
                         <th></th>
                         <th>Hari/Tanggal</th>
-                        <th>Agenda</th>
+                        <th>Password</th>
                         <th>Keterangan</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <?php foreach($mahasiswa as $key => $value){?>
+                    
+                        <?php foreach($mahasiswa as $key => $value){ ?>                            
+                            <tr>
                             <th></th>
-                            <td> <?php $mahasiswa ?></td>
-                                
-                            
-                            <?php } ?>
-                        <th></th>
-                        <td>Senin, 26 Juli 2023</td>
-                        <td>Ngopi</td>
-                        <td>Hadir</td>
-                    </tr>
-
-                    <tr>
-                        <th></th>
-                        <td>Selasa, 27 Juli 2023</td>
-                        <td>Tidur</td>
-                        <td>Hadir</td>
-                    </tr>
+                            <td> <?php echo "$key" ?> </td>
+                            <td> <?php echo "$value" ?> </td>
+                            <td> hadir </td>
+                            </tr>                            
+                        <?php } ?>
+                    
                 </tbody>
             </table>
-      
-        
-
-
+              
 </body>
 </html>
