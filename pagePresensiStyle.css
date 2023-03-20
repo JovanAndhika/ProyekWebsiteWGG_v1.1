@@ -1,0 +1,57 @@
+body{
+    background: url('https://w0.peakpx.com/wallpaper/490/528/HD-wallpaper-anime-starry-sky-anime-girl-back-view-night-scenic-boots-anime.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0 0 0;
+}
+
+#WGG{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+
+.table-content{
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 800px;
+}
+
+.table-content thead tr{
+    background-color: rgba(10, 39, 96, 0.507);
+    color: rgb(233, 245, 128);
+    font-weight: bold;
+    text-align: left;
+}
+
+.table-content th, .table-content td{
+    padding: 20px 20px;
+}
+
+.table-content tbody tr{
+    border-bottom: 2px solid #fff;
+    font-size: 20;
+    color: rgb(226, 226, 226);
+    font-weight: 200;
+}
+
+
+.table-content tbody tr:nth-of-type(even){
+    background-color: rgba(141, 175, 221, 0.511);
+}
+
+.table-content tbody tr:nth-of-type(odd){
+    background-color: rgba(65, 140, 245, 0.456);
+}
+
+.table-content tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(21, 128, 209);
+}
+
+
+
